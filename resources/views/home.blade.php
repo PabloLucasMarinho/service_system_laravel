@@ -3,8 +3,10 @@
 {{-- Customize layout sections --}}
 
 @section('subtitle', 'Início')
-{{--@section('content_header_title', 'Home')--}}
-{{--@section('content_header_subtitle', 'Welcome')--}}
+@section('content_header')
+  <h1>Dashboard</h1>
+@stop
+
 
 {{-- Content body: main page content --}}
 
